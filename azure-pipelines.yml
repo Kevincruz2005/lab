@@ -7,7 +7,7 @@ stages:
   jobs:
   - job: Job
     pool:
-      name: prac
+      name: lab
     steps:
     - task: Maven@3
       inputs:
