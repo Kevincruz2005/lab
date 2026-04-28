@@ -6,8 +6,7 @@ stages:
 - stage: __default
   jobs:
   - job: Job
-    pool:
-      name: lab
+    pool: lab
     steps:
     - task: Maven@3
       inputs:
